@@ -1,4 +1,4 @@
-package com.anonymous.FinsangMart
+package com.ds.crm
 import expo.modules.splashscreen.SplashScreenManager
 
 import android.os.Build

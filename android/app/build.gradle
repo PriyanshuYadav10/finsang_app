@@ -88,9 +88,9 @@ android {
     buildToolsVersion rootProject.ext.buildToolsVersion
     compileSdk rootProject.ext.compileSdkVersion
 
-    namespace 'com.anonymous.FinsangMart'
+    namespace 'com.ds.crm'
     defaultConfig {
-        applicationId 'com.anonymous.FinsangMart'
+        applicationId 'com.ds.crm'
         minSdkVersion rootProject.ext.minSdkVersion
         targetSdkVersion rootProject.ext.targetSdkVersion
         versionCode 1

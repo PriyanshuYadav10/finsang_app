@@ -1,7 +1,7 @@
 {
   "expo": {
     "name": "Finsang Pro",
-    "slug": "Finsang Pro",
+    "slug": "finsang-pro",
     "version": "1.0.0",
     "orientation": "portrait",
     "icon": "./assets/images/icon.png",
@@ -10,7 +10,7 @@
     "newArchEnabled": true,
     "ios": {
       "supportsTablet": true,
-      "bundleIdentifier": "com.anonymous.FinsangMart"
+      "bundleIdentifier": "com.ds.crm"
     },
     "android": {
       "adaptiveIcon": {
@@ -19,7 +19,7 @@
         "resizeMode": "contain"
       },
       "edgeToEdgeEnabled": true,
-      "package": "com.anonymous.FinsangMart"
+      "package": "com.ds.crm"
     },
     "web": {
       "bundler": "metro",
@@ -42,12 +42,13 @@
       "typedRoutes": true
     },
     "extra": {
-      // "SUPABASE_URL": "https://ocqqsghiyrplngttwltp.supabase.co",
-      // "SUPABASE_ANON_KEY": "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpc3MiOiJzdXBhYmFzZSIsInJlZiI6Im9jcXFzZ2hpeXJwbG5ndHR3bHRwIiwicm9sZSI6ImFub24iLCJpYXQiOjE3NzYxMDM3MDAsImV4cCI6MjA5MTY3OTcwMH0.fIUdv9N8q67JkH205ylwZXSaocqBcADzp37Rjc1uZVw",
-
-      "SUPABASE_URL":"https://epbogmvdxdvicdtpzdie.supabase.co",
-      "SUPABASE_ANON_KEY":"eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpc3MiOiJzdXBhYmFzZSIsInJlZiI6ImVwYm9nbXZkeGR2aWNkdHB6ZGllIiwicm9sZSI6ImFub24iLCJpYXQiOjE3NzY0MDQ1MjYsImV4cCI6MjA5MTk4MDUyNn0.3kgwItaGIZFjyeNMN6skeEDhvJejwUkJLnNE3uzEI0k",
-      "SERVER_BASE_URL": "http://13.60.182.251:3001/api"
+      "SUPABASE_URL": "https://epbogmvdxdvicdtpzdie.supabase.co",
+      "SUPABASE_ANON_KEY": "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpc3MiOiJzdXBhYmFzZSIsInJlZiI6ImVwYm9nbXZkeGR2aWNkdHB6ZGllIiwicm9sZSI6ImFub24iLCJpYXQiOjE3NzY0MDQ1MjYsImV4cCI6MjA5MTk4MDUyNn0.3kgwItaGIZFjyeNMN6skeEDhvJejwUkJLnNE3uzEI0k",
+      "SERVER_BASE_URL": "http://13.60.182.251:3001/api",
+      "router": {},
+      "eas": {
+        "projectId": "98026176-3228-4659-9e77-f1a639f2e07f"
+      }
     }
   }
 }
